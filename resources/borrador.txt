@@ -1,0 +1,63 @@
+## Servicios
+ <section class="my-8 md:px-10">
+        <h2 class="px-4 mb-2 uppercase font-semibold text-2xl text-gray-700">Nuestros servicios</h2>
+        <div class="max-w-7wl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+            <article class="sm:mb-5">
+                <figure>
+                    <img src="{{ asset('img/home_camara.jpeg') }}" alt=""
+                        class="rounded-t-lg w-full h-40 object-cover">
+                </figure>
+                <header>
+                    <h1 class="text-xl text-gray-700 uppercase font-bold">Video correccion</h1>
+                    <p class="text-sm text-gray-500">Nuestro servicio de video corrección te permitirá ver tus errores y
+                        mejorar tu estilo</p>
+                </header>
+            </article>
+            <article class="sm:mb-5">
+                <figure>
+                    <img src="{{ asset('img/home_profesor.jpeg') }}" alt=""
+                        class="rounded-t-lg w-full h-40 object-cover">
+                </figure>
+                <header>
+                    <h1 class="text-xl text-gray-700 uppercase font-bold">Cursos de snowboard</h1>
+                    <p class="text-sm text-gray-500">Nuestros cursos de snowboard están diseñados para vos, te ayudamos a
+                        definir tu nivel y mejorar tus habilidades</p>
+                </header>
+            </article>
+            <article class="">
+                <figure>
+                    <img src="{{ asset('img/home_teoria.jpeg') }}" alt=""
+                        class="rounded-t-lg w-full h-40 object-cover">
+                </figure>
+                <header>
+                    <h1 class="text-xl text-gray-700 uppercase font-bold">Fundamentos del Snowboard</h1>
+                    <p class="text-sm text-gray-500">Aprende los fundamentos del snowboard en nuestros cursos para
+                        principiantes, sin experiencia previa requerida</p>
+                </header>
+            </article>
+        </div>
+    </section>
+
+## Barra negra
+ <section class=" bg-black py-5">
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div>
+            </div>
+        </div>
+    </section>
+
+## Footer
+
+ <div class="p-5">
+        <div class="container flex justify-end items-center mx-auto">
+            <nav class="flex gap-3 items-center">
+                <a class="font-bold uppercase text-sm text-gray-400" href="https://www.instagram.com/guru.ride/"
+                    target="_blank">instagram</a>
+                <a class="font-bold uppercase text-sm text-gray-400" href="https://www.youtube.com/@gururide"
+                    target="_blank">youtube</a>
+            </nav>
+        </div>
+    </div>
+    <footer class="text-center text-gray-500 font-bold uppercase text-xs">
+        guru ride - Todos los derechos reservados {{ now()->year }}
+    </footer>
